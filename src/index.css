@@ -1,0 +1,105 @@
+body {
+  background-color: #39a59c;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #a5d2c8;
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+.one button.add-task {
+  background-color: #1e87b8; /* Green color for Add Task */
+  color: white;
+  outline: none;
+}
+
+.one button.update-task {
+  background-color: #169948; /* Orange color for Update Task */
+  color: white;
+  margin-top: 10px;
+}
+
+.one {
+  margin-bottom: 20px;
+}
+
+.one input {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  width: 300px;
+  margin-right: 10px;
+}
+
+.one button {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.data {
+  background-color: #edf6f5;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  max-height: 400px; /* Adjust height as needed */
+  overflow-y: auto; /* Enables vertical scrollbar */
+}
+
+.data h3 {
+  margin: 0;
+  padding: 5px;
+}
+
+ul {
+  list-style-type: none; /* Removes bullet points */
+  padding: 0; /* Removes default padding */
+  margin: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 5px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+li span {
+  flex: 1;
+  text-align: left;
+}
+
+li button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+li button.btnn {
+  background-color: #21a047; /* Color for Edit button */
+}
